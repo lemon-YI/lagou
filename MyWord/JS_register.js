@@ -3,14 +3,12 @@
  */
 
 window.onload = function () {
-    var inputs = document.getElementsByClassName("green"); //byClassName会获取到多个
+    var inputs = document.getElementsByClassName("green");
     for(var i = 0; i < inputs.length;i++){
         inputs[i].addEventListener("focus",function () {
-            //这里写foucs时候的代码
             this.style.border= "1px solid #00b38a";
         });
         inputs[i].addEventListener("blur",function () {
-            //这里写blur时候的代码
             this.style.border = "none";
         });
     }

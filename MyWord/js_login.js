@@ -3,14 +3,12 @@
  */
 window.onload = function () {
     /*
-    var inputs = document.getElementsByClassName("txt"); //byClassName会获取到多个
+    var inputs = document.getElementsByClassName("txt");
     for(var i = 0; i < inputs.length;i++){
         inputs[i].addEventListener("focus",function () {
-            //这里写foucs时候的代码
-            this.style.border= "1px solid #00b38a"; //和下面的操作会冲突，这里用class比较好，优先级比较低
+            this.style.border= "1px solid #00b38a";
         });
         inputs[i].addEventListener("blur",function () {
-            //这里写blur时候的代码
             this.style.border = "none";
         });
     }
@@ -24,14 +22,11 @@ window.onload = function () {
 
     $('#username').on('blur',validateUsername);
     $('#password').on('blur',validatePassword);
-    //补充password的blur绑定
 
     $('#loginButton').on('click',function () {
 
-        //console.log(validatePassword() == true);  //打印出来是true 或者 false
-        //console.log(validatePassword()); //打印出来也是true或者false
 
-        if(validateUsername() == true && validatePassword() == true){  //validateUsername()如果返回false，那么password是不会验证的。 &&就是为了节省时间。既然前面都不对，后面就不再执行
+        if(validateUsername() == true && validatePassword() == true){  
             alert("合法");
             //后面ajax提交给服务区验证用户名密码是否正确
         }
@@ -62,11 +57,10 @@ function validateUsername() {
 
 function validatePassword(){
     console.log("正在验证密码--------------------------");
-    //你来实现
     var password = $('#password').val();
     console.log(password.length);
 
-    if(password.length < 6 || password.length > 15){ //小于6   或者   大于15
+    if(password.length < 6 || password.length > 15){ 
         console.log(1);
         $('#password').css("border","1px solid #ff0000");
         $('#passwordError').html("密码不符合长度要求");
