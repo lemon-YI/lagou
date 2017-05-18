@@ -1,0 +1,212 @@
+.body{
+    width: 700px;
+    height:520px;
+    background-color: #ffffff;
+    margin: -168px auto 0 auto;
+    position:relative;
+    z-index: 1;
+    border: 1px solid #f8f8f8;
+    padding: 50px 0 50px 60px;
+}
+.body .box:before{
+    content: "";
+    position: absolute;
+    z-index: 3;
+    bottom: -2px;
+    right: -2px;
+    display: none;
+    width: 0;
+    border-color: #f1f1f1 #fff #f1f1f1 #fff ;
+    border-radius: 3px 0 0;
+}
+ul{
+    list-style: none;
+}
+li,a{
+    text-decoration: none;
+}
+.main_phone_menu, .main_email_menu{
+    float: left;
+}
+.main_phone_menu{
+    display: block;
+}
+.main_email_menu{
+    display: none;
+}
+.left h2{
+    font-weight: normal;
+}
+.left h2 a{
+    color: #666666;
+}
+.left h2 .phone_register{
+    background: url("images/icon-phone-active_74d4e76.png")  left center no-repeat;
+    font-size: 18px;
+    margin: 20px 30px;
+    float: left;
+}
+.left h2 .email_register{
+    background: url("images/icon-mail_dd7169e.png")  left center no-repeat;
+    font-size: 18px;
+    margin: 20px 30px;
+    float: left;
+}
+.left{
+    float: left;
+    width: 400px;
+    height: auto;
+    border-right:1px dashed #cccccc;
+}
+.left .phone form .username{
+    width: 285px;
+    height:50px;
+    background-color:#f8f8f8;
+    border: 0;
+    margin: 10px 10px;
+    outline: none;
+    padding-left: 15px;
+}
+
+.left .phone form .input .robot{
+    width: 130px;
+    height:50px;
+    background-color:#f8f8f8;
+    border: 0;
+    margin: 10px 0px 20px 10px;
+    outline: none;
+    padding-left: 15px;
+}
+.left .phone form .input img{
+    vertical-align: middle;
+}
+.left .phone form .input .icon{
+    display: inline-block;
+    vertical-align:middle;
+    height:48px;
+    background:url("images/icon-reflash_a187c0b.jpg") center center no-repeat;
+}
+.left .phone form  .passW .code{
+    width: 150px;
+    height:50px;
+    background-color:#f8f8f8;
+    border: 0;
+    margin: 10px 0px 20px 10px;
+    outline: none;
+    padding-left: 15px;
+}
+.left .phone .passW .btn_code{
+    width: 130px;
+    height:50px;
+    background-color: #00b38a;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+}
+.left .phone form .password{
+    width:285px;
+    height:50px;
+    background-color:#f8f8f8;
+    border: 0;
+    margin: 10px 10px;
+    outline: none;
+    padding-left: 15px;
+}
+.left .phone form .btn,.left .email form .btn{
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    margin: 10px 0 0 10px;
+    width: 143px;
+    height: 50px;
+    cursor: pointer;
+}
+.left .phone form .active{
+    margin: 20px;
+}
+.left .phone form a{
+    color: #00b38a;
+}
+.left .phone form .btn_register{
+    width: 305px;
+    height:50px;
+    margin: 10px;
+    background-color: #00b38a;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    font-size: 22px;
+}
+.left .phone form .btn_register:hover{
+    background-color:#00b39a;
+}
+.left .email form .txt{
+    width: 285px;
+    height:60px;
+    background-color:#f8f8f8;
+    border: 0;
+    margin: 15px 10px;
+    outline: none;
+    padding-left: 15px;
+}
+.left .email form .btn_register{
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    margin: 12px 10px;
+    width: 135px;
+    height: 50px;
+    cursor: pointer;
+}
+.left .email form .active{
+    margin: 20px;
+}
+.left .email form a{
+    color: #00b38a;
+}
+.left .email form .btn_register{
+    width: 290px;
+    height:50px;
+    margin: 12px;
+    background-color: #00b38a;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    font-size: 22px;
+}
+.divider:after{
+    position: absolute;
+    content: 'or';
+    left: 59.5%;
+    top: 45%;
+    padding: 3px;
+    background-color: #ffffff;
+
+}
+.right{
+    display: block;
+    margin: 30px 0px 0px 460px;
+}
+.right p{
+    line-height: 45px;
+}
+.right p a{
+   color: #00b38a;
+    background: url("images/icon-arrow-right_f36c0d6.png")59px center no-repeat;
+}
+.right ul{
+    list-style: none;
+    margin:20px 0px;
+}
+.right ul li{
+    float: left;
+}
+.right ul li img{
+    margin-left: 10px;
+}
+.right p img{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.right h5{
+    font-weight: normal;
+    font-size: 16px;
+}

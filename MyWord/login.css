@@ -1,0 +1,92 @@
+
+.main{
+    width: 700px;
+    height: 450px;
+    background-color: #ffffff;
+    margin: -168px auto 0 auto;
+    position:relative;
+    z-index: 1;
+    border: 1px solid #f8f8f8;
+    padding: 0 30px;
+}
+.left{
+    float: left;
+}
+form{
+    width: 380px;
+    margin: 60px 40px;
+    border-right:dashed #eeeeee 1px;
+}
+.left p{
+    margin-left: 235px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #00b38a;
+}
+
+.txt{
+    width: 285px;
+    height:55px;
+    background-color:#f8f8f8;
+    border: none;
+    margin: 10px;
+    outline: none;
+    padding-left: 15px;
+}
+.left .btn{
+    width: 302px;
+    height:55px;
+    margin: 10px;
+    background-color: #00b38a;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    font-size: 22px;
+}
+.left .btn:hover{
+    background-color: #00b39a;
+}
+.left .s1{
+    color: #000;
+    font-weight: normal;
+    margin-left: 55px;
+    margin-top: 15px;
+}
+.left .s1 a{
+    color: #00b38a;
+}
+.left h6 a{
+    display: inline-block;
+    padding-right: 23px;
+    background:url("images/icon-arrow-right_f36c0d6.png") right center no-repeat;
+}
+.divider:after{
+    position: absolute;
+    content: 'or';
+    left: 58%;
+    top: 45%;
+    padding: 3px;
+    background-color: #ffffff;
+
+}
+.right{
+    margin: 75px 0px 75px 485px;
+}
+.right ul{
+    list-style: none;
+   margin:20px 0px;
+
+}
+.right ul li{
+    float: left;
+}
+.right ul li img{
+    margin-left: 10px;
+}
+.right p img{
+    margin-top: 60px;
+}
+.right .erweima{
+    margin-top: 10px;
+    font-size: 16px;
+}

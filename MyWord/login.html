@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>登录</title>
+    <script src="jquery-3.1.1.js"></script>
+    <script src="js_login.js"></script>
+    <link href="common.css" rel="stylesheet" type="text/css">
+    <link href="login.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="images/logo_13bcdf6.png">
+            </div>
+        </div>
+        <div class="main">
+            <div class="left">
+                <form>
+                    <input type="text" class="txt" placeholder="请输入已验证的手机号/邮箱" id="username" >
+                    <span class="tipError" id="usernameError"></span>
+                    <input type="password" class="txt" placeholder="请输入密码" id="password">
+                    <span class="tipError" id="passwordError"></span>
+                    <p>忘记密码？</p>
+                    <button type="button" class="btn" id="loginButton">登&nbsp;录</button>
+                    <h6 class="s1">还没有拉钩账号？<a href="register.html">立即注册</a></h6>
+                </form>
+            </div>
+            <div class="divider"></div>
+            <div class="right">
+                <p>请使用以下直接登录账号：</p>
+                <ul>
+                    <li><a href="http://www.weibo.com" title="使用新浪微博登录"><img src="images/weibo.png"></a></li>
+                    <li><a href="http://web2.qq.com"  title="使用腾讯QQ登录"><img src="images/QQ.png"></a></li>
+                    <li><a href="https://wx.qq.com" title="使用微信登录"><img src="images/weixin.png"></a></li>
+                </ul>
+                <p><img src="images/erweima.png" style="width: 140px; width: 140px"></p>
+                <p class="erweima">[扫码下载拉沟APP]</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>——专注互联网就业机会——</p>
+        </div>
+    </div>
+</body>
+</html>
